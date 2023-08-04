@@ -7,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <BrowserRouter>
-      <div className="container mx-auto">
+      <div className="container mx-auto p-10">
         <Navigation />
         <Routes>
           <Route path="/" element={<Navigate to="/tasks" />} />
